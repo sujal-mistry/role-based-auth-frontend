@@ -16,14 +16,14 @@ const useRegisterPage = () => {
           is_admin: 0,
         };
         await axios
-          .post("http://localhost:3030/customer/user", body)
+          .post("http://localhost:3030/user/registration", body)
           .then(function (response) {
             let resp_message = response.data.message;
             let resp_status = response.data.status;
 
             if (resp_status === 200) {
               setOtp(true);
-              alert("You Have Successfully Registered as an Customer.");
+              alert(resp_message);
               setLoading(false);
               return false;
             } else {

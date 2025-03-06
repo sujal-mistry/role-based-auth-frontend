@@ -16,7 +16,7 @@ const useAdminRegisterPage = () => {
           is_admin: 1,
         };
         await axios
-          .post("http://localhost:3030/customer/user", body)
+          .post("http://localhost:3030/user/registration", body)
           .then(function (response) {
             let resp_message = response.data.message;
             let resp_status = response.data.status;
