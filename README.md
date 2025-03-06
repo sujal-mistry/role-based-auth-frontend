@@ -82,8 +82,9 @@ Assignment
 ```
 
 🔹Public Routes
-/register/customer ---- Customer registration form
 
-/register/admin --- Admin registration form
+- /register/customer ---- Customer registration form
 
-/login/admin --- Admin login
+- /register/admin --- Admin registration form
+
+- /login/admin --- Admin login
