@@ -24,6 +24,16 @@ This is a **React.js** frontend for role-based authentication, supporting **cust
 
 ---
 
+🔹Public Routes
+
+- /register/customer ---- Customer registration form
+
+- /register/admin --- Admin registration form
+
+- /login/admin --- Admin login
+
+---
+
 ## **📂 Project Structure**
 
 ```
@@ -80,11 +90,3 @@ Assignment
    └─ yarn.lock
 
 ```
-
-🔹Public Routes
-
-- /register/customer ---- Customer registration form
-
-- /register/admin --- Admin registration form
-
-- /login/admin --- Admin login
