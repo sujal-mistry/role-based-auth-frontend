@@ -8,7 +8,7 @@ const Routers = () => {
   return (
     <Routes>
       <Route path="/" element={<RegisterPage />} />
-      <Route path="/admin" element={<AdminRegisterPage />} />
+      <Route path="/admin/register" element={<AdminRegisterPage />} />
       <Route path="/admin/login" element={<AdminLogin />} />
 
       <Route path="*" element={<RoleBasedGuard />} />
