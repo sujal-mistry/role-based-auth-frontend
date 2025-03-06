@@ -26,11 +26,11 @@ This is a **React.js** frontend for role-based authentication, supporting **cust
 
 🔹Public Routes
 
-- /register/customer ---- Customer registration form
+- / ---- Customer registration form
 
-- /register/admin --- Admin registration form
+- /admin/register --- Admin registration form
 
-- /login/admin --- Admin login
+- /admin/login --- Admin login
 
 ---
 
